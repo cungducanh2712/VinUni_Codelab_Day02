@@ -1,6 +1,6 @@
 # Problem Scan — Xanh SM
 
-- Người thực hiện: [Điền họ tên]
+- Người thực hiện: Vũ Văn Bình
 - Phạm vi phụ trách: Xanh SM — vận hành taxi điện
 - Trạng thái: Bản nháp phục vụ bài lab
 
@@ -95,3 +95,10 @@ Chọn ba bài toán sau để đánh giá sơ bộ. Có thể thay đổi sau k
 - **Đề xuất ban đầu:** Hỗ trợ điều phối viên xử lý sự cố pin của tài xế Xanh SM.
 - **Lý do sơ bộ:** Phạm vi phù hợp với starter code `starter-code/prompt_prototype.py`, có thể thử nghiệm việc tạo bản nháp và tuân thủ ranh giới vận hành.
 - **Cần xác minh trước khi chốt:** Quy trình thực tế, dữ liệu đầu vào sẵn có, baseline thời gian xử lý và nhu cầu của người sử dụng.
+
+## Cập nhật sau khi nhóm chọn chủ đề
+
+- **Chủ đề nhóm:** VinFast — Chẩn đoán dịch vụ & Xử lý bảo hành (Service & Warranty Copilot), theo thông tin thành viên cung cấp sau phần SCAN cá nhân.
+- **Phạm vi phân tích sâu:** Hỗ trợ cố vấn dịch vụ chuẩn hóa mô tả triệu chứng, tra cứu tài liệu được duyệt và soạn hồ sơ nháp; kỹ thuật viên xác nhận chẩn đoán, người có thẩm quyền quyết định bảo hành.
+- **Tài liệu tiếp nối:** `02-deep-dive-report.md` và `04-workflow-diagram.png` trình bày chủ đề VinFast. Ba cards Xanh SM ở trên giữ vai trò ý tưởng cá nhân ban đầu; không khẳng định chủ đề nhóm xuất phát từ một trong ba cards này.
+- **Trạng thái bằng chứng:** Chưa khảo sát quy trình hoặc có dữ liệu bảo hành nội bộ; mọi thời gian và metric mới là giả định/mục tiêu cần kiểm chứng.

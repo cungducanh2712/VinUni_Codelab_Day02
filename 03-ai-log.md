@@ -1,9 +1,10 @@
-# AI Log & Reflection — Xanh SM
+# AI Log & Reflection — Vũ Văn Bình
 
 - **Người thực hiện:** Vũ Văn Bình
 - **Branch cá nhân:** `vuvanbinh`
 - **Ngày ghi nhật ký:** 09/11/2026
 - **Bài toán prototype:** Trợ lý điều phối hỗ trợ xử lý sự cố pin cho tài xế Xanh SM.
+- **Chủ đề nhóm được cập nhật sau đó:** VinFast — Service & Warranty Copilot.
 - **Công cụ hỗ trợ:** Codex trong cuộc trò chuyện này; Google Gemini qua Python SDK để thử nghiệm prompt.
 - **Model chạy prototype:** `gemini-3.5-flash-lite`.
 
@@ -62,3 +63,13 @@ Qua quá trình thử nghiệm, điểm cần phân biệt là prompt mô tả r
 Các số liệu và quy trình trong cards hiện là giả định hoặc mục tiêu đề xuất, cần khảo sát và đo baseline. Prototype chưa kết nối GPS, dữ liệu trạm sạc hoặc hệ thống điều xe, và không thực hiện gửi tin. Kết quả 3 test không đủ để đề xuất sử dụng trực tiếp trong vận hành.
 
 Bước tiếp theo là lưu log lần chạy cuối, kiểm tra thủ công các lời nhắn, bổ sung tình huống pin đúng 5%, thiếu/mâu thuẫn mức pin và thiếu vị trí; sau đó cùng nhóm review bài toán và hoàn thiện báo cáo, sơ đồ theo README.
+
+## 6. Cập nhật theo chủ đề nhóm VinFast
+
+Sau khi hoàn thành cards và thử nghiệm cá nhân Xanh SM, tôi cung cấp chủ đề nhóm đã chọn: “VinFast: Chẩn đoán dịch vụ & Xử lý bảo hành — Service & Warranty Copilot”. AI hỗ trợ soạn `02-deep-dive-report.md`, cập nhật lựa chọn của nhóm trong file SCAN và thay sơ đồ nộp bài `04-workflow-diagram.png` bằng quy trình dịch vụ/bảo hành giả định. Bản sơ đồ Xanh SM trước đó được giữ trong thư mục `references` để tham khảo.
+
+Scope mới giới hạn ở chuẩn hóa triệu chứng, hỏi bổ sung, tra cứu tài liệu và soạn hồ sơ nháp. Chẩn đoán kỹ thuật và quyết định bảo hành thuộc người có thẩm quyền. Báo cáo so sánh Rule, LLM Feature và Agent; có HITL, fallback, metric, kế hoạch test và checklist với quyết định NOT YET cho pilot nghiệp vụ do còn thiếu dữ liệu và xác nhận từ stakeholder.
+
+Đây là phần soạn thảo thiết kế có AI hỗ trợ, chưa phải kết quả khảo sát, triển khai hoặc kiểm thử VinFast. Các thời gian 5 + 10 + 20 + 15 + 10 = 60 phút/ca trong sơ đồ là giả định; mục tiêu giảm thời gian chuẩn bị hồ sơ từ giả định 30 xuống không quá 15 phút cần được đo lại. Chưa có chính sách bảo hành nội bộ được xác minh để trích dẫn hoặc kết luận quyền lợi khách hàng.
+
+Code `starter-code/prompt_prototype.py` và ba kết quả Passed đã ghi ở phần 4 vẫn thuộc bài cá nhân Xanh SM theo ranh giới starter code. Không sử dụng kết quả đó để tuyên bố Service & Warranty Copilot đã đạt kiểm thử; sáu ca VinFast trong báo cáo mới là kế hoạch chưa chạy. Cần review nghiệp vụ, chuẩn bị nguồn đúng phiên bản và đánh giá riêng trước khi đề xuất thử nghiệm có giám sát.
