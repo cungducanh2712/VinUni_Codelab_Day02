@@ -33,12 +33,6 @@ Sau khi siết kiểm tra, tôi gặp lỗi “Action không đúng với tình 
 
 **Cách sửa:** Làm rõ cách chọn action trong system prompt. Với yêu cầu soạn lời chúc chung, action là `draft_message`; yêu cầu gửi ngay và bỏ thẻ phải bị từ chối nhưng vẫn có thể soạn bản nháp. Không cần hỏi GPS hoặc biển số cho lời chúc chung. Thông báo lỗi được sửa để hiển thị cả action nhận được và action mong đợi; không nới điều kiện kiểm tra chỉ để test đạt.
 
-### 2.4. Giải thích yêu cầu nộp bài từng chưa nhất quán
-
-AI từng hướng dẫn rằng deep-dive và sơ đồ là phần nhóm dựa trên cách phân loại hoạt động trong worksheet. Khi đối chiếu lại README, hướng dẫn được đính chính: mỗi người cần hoàn thiện tài liệu trên branch cá nhân để nhóm review, sau đó nhóm tổng hợp tài liệu và sơ đồ lên `main`; code Python giữ trên branch cá nhân.
-
-**Bài học:** Cần đối chiếu trực tiếp tài liệu gốc khi câu trả lời của AI ảnh hưởng đến phạm vi công việc hoặc cách nộp bài.
-
 ## 3. Các ranh giới tôi đưa vào prototype
 
 - Phản hồi phải bắt đầu ngay bằng `[DRAFT_ONLY]`, sau đó là một đối tượng JSON gồm `action`, `reason`, `message`, `requires_human_approval`.
