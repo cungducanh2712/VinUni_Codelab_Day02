@@ -8,7 +8,7 @@
 
 ---
 
-# 🔍 Phase 1 — SCAN
+# Phase 1 — SCAN
 
 Sử dụng **4 Lenses** quét qua hoạt động vận hành của BQL các khu đô thị Vinhomes:
 
@@ -25,7 +25,7 @@ Sử dụng **4 Lenses** quét qua hoạt động vận hành của BQL các khu
 
 ---
 
-# 🃏 Phase 2 — QUICK-ASSESS: 3 Quick Problem Cards
+# Phase 2 — QUICK-ASSESS: 3 Quick Problem Cards
 
 Chọn top 3 từ danh sách SCAN: **#1 (Phân loại phản ánh), #2 (Hồ sơ thi công nội thất), #3 (Sự cố diện rộng).**
 
@@ -169,7 +169,7 @@ Chọn top 3 từ danh sách SCAN: **#1 (Phân loại phản ánh), #2 (Hồ sơ
 
 ---
 
-# 🗳️ Đề xuất mang vào họp nhóm
+# Đề xuất mang vào họp nhóm
 
 **Đề xuất cá nhân:** Chọn **Card #1 — Phân loại & điều hướng phản ánh cư dân** để Deep-Dive.
 
