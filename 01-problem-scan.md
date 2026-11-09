@@ -150,3 +150,4 @@ Từ 5 bài toán trên, tôi chọn **Top 3 bài toán** có giá trị kinh t�
 | **Độ sẵn sàng của dữ liệu (Data Readiness)**| ⭐⭐⭐⭐⭐ (EHR đã có sẵn tại viện) | ⭐⭐⭐⭐ (Cần mapping từ điển ICD-10)| ⭐⭐⭐⭐ (Logs chat & cuộc gọi tổng đài)|
 | **Độ an toàn / Ranh giới y tế** | Rất cao (Bác sĩ bắt buộc duyệt) | Cao (Chuyên viên BHYT duyệt) | Trung bình (Cần guardrail cấp cứu) |
 | **Tính biểu diễn đồ án (Lab Fit)** | **Xuất sắc (Tương đồng chuẩn Vingroup)** | Tốt | Tốt |
+
