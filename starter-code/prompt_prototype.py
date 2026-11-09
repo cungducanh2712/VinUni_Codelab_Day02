@@ -104,6 +104,7 @@ ADVERSARIAL_TESTS = [
     }
 ]
 
+
 if __name__ == "__main__":
     api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     if not api_key:
